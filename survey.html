@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- Font Awesome Ref Link (Symbols) -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        />
+
+        <!-- CSS File -->
+        <link rel="stylesheet" href="css/styles.css" />
+
+        <title>BURGER MERBOKING®</title>
+        <link rel="icon" href="img/LogoCircle.png" />
+    </head>
+    <body>
+        <!-- Header Begin -->
+        <header>
+            <!-- <a href="#" class="logo">
+                <img src="img/LogoCircle.png" alt="" width="100" height="100" />
+            </a>
+            -->
+            <a href="#" class="logo"
+                ><i class="fas fa-utensils"></i>BURGER MERBOKING RESTAURANT 
+            </a>
+            <div id="menu-bar" class="fas fa-bars"></div>
+
+            <nav class="navbar">
+                <a href="home.html">HOME</a>
+                <a href="aboutme.html">ABOUT ME</a>
+                <a href="aboutus.html">ABOUT US</a>
+                <a href="home.html#gallery">GALLERY</a>
+                <a href="home.html#order">ORDER</a>
+                <a href="survey.html">SURVEY</a>
+            </nav>
+        </header>
+        <!-- Header End -->
+
+        <!-- Survey Start -->
+        <section class="survey" id="survey">
+            <br />
+            <div class="content">
+                <center>
+                    <h1 class="heading">SUR<span>VEY</span></h1>
+                    <p>
+                        Thank you for visiting Burger MerboKing. We're
+                        conducting a short survey to find out about your dining
+                        experience and what we might do to improve. Please help
+                        us by completing this short survey. Customers who
+                        participate in completing the survey will get a 10%
+                        discount on their entire meal. Thank you.
+                    </p>
+                    <br />
+                </center>
+                <form method="GET" action="survey.html">
+
+                    <fieldset>
+                        <legend>
+                            <i class="fas fa-pencil-alt"></i> <b>FORM</b>
+                        </legend>
+                        
+                        <div class="info">
+                            <ol>
+                                <div id="inputbox">
+                                    <li style="list-style-position: inside;">
+                                        <b>Name:</b>
+                                        <input
+                                            type="text"
+                                            name="name"
+                                            placeholder="full name"
+                                            size="50"
+                                            maxlength="20"
+                                            required
+                                        />
+                                    <li style="list-style-position: inside;">
+                                        <b>Age:</b>
+                                        <input type="number" name="age" min="13" max="80" step="1" placeholder="age" required/>
+                                    </li>
+                                    <li style="list-style-position: inside;">
+                                        <b>Phone Number:</b>
+                                        <input type="text" name="phone" placeholder="+0123456789" required/>
+                                    </li>
+                                    <li style="list-style-position: inside;">
+                                        <b>Email:</b>
+                                        <input type="email" name="email" placeholder="email@gmail.com" size="50" required/>
+                                    </li>
+                                    <li style="list-style-position: inside;">
+                                        <b>Date of visit:</b>
+                                        <input type="date" name="date" required/>
+                                    </li>
+                                    <li style="list-style-position: inside;">
+                                        <b>Gender:</b>
+                                        <input type="radio" name="gender" value="Male" required/> Male
+                                        <input type="radio" name="gender" value="Female" /> Female
+                                    </li>
+                                    <li style="list-style-position: inside;">
+                                        <b>Select food(s) that you loved the most: </b>
+                                        <input type="checkbox" name="gaming" value="yes" required> Burger
+                                        <input type="checkbox" name="music" value="yes"> Fried Chicken
+                                        <input type="checkbox" name="music" value="yes"> Fish and Chips
+                                        <input type="checkbox" name="music" value="yes"> Fries
+                                        <input type="checkbox" name="music" value="yes"> Sandwich
+                                        <input type="checkbox" name="music" value="yes"> Ice Cream
+                                        <input type="checkbox" name="music" value="yes"> Muffin
+                                    </li>
+                                </div>
+                            </ol>
+                        </div>
+                    </fieldset>
+                    
+                    <br>
+
+                    <fieldset>
+                        <legend>
+                            <i class="fas fa-pencil-alt"></i> <b>RATING</b>
+                        </legend>
+                        
+                        <table class="tableSurvey">
+                            <thead>
+                                <tr>
+                                    <th>&nbsp;</th>
+                                    <th width="200px">Strongly Disagree</th>
+                                    <th width="200px">Disagree</th>
+                                    <th width="200px">Neutral</th>
+                                    <th width="200px">Agree</th>
+                                    <th width="200px">Strongly Agree</th>
+                                </tr>
+                            <t>
+                            <tbody>
+                                <tr>
+                                    <td width="600px">The quality of the service you received is exceptional</td>
+                                    <td><input type="radio" name="quality" value="1" required/></td>
+                                    <td><input type="radio" name="quality" value="2" /></td>
+                                    <td><input type="radio" name="quality" value="3" /></td>
+                                    <td><input type="radio" name="quality" value="4" /></td>
+                                    <td><input type="radio" name="quality" value="5" /></td>
+                                </tr>
+                                <tr>
+                                    <td width="600px">The food tasted fresh and delicious</td>
+                                    <td><input type="radio" name="clean" value="1" required/></td>
+                                    <td><input type="radio" name="clean" value="2" /></td>
+                                    <td><input type="radio" name="clean" value="3" /></td>
+                                    <td><input type="radio" name="clean" value="4" /></td>
+                                    <td><input type="radio" name="clean" value="5" /></td>
+                                </tr>
+                                <tr>
+                                    <td width="600px">The restaurant is clean and comfortable</td>
+                                    <td><input type="radio" name="clean" value="1" required/></td>
+                                    <td><input type="radio" name="clean" value="2" /></td>
+                                    <td><input type="radio" name="clean" value="3" /></td>
+                                    <td><input type="radio" name="clean" value="4" /></td>
+                                    <td><input type="radio" name="clean" value="5" /></td>
+                                </tr>
+                                <tr>
+                                    <td width="600px">Food charges are acceptable and reasonable</td>
+                                    <td><input type="radio" name="price" value="1" required/></td>
+                                    <td><input type="radio" name="price" value="2" /></td>
+                                    <td><input type="radio" name="price" value="3" /></td>
+                                    <td><input type="radio" name="price" value="4" /></td>
+                                    <td><input type="radio" name="price" value="5" /></td>
+                                </tr>
+                                <tr>
+                                    <td width="600px">Overall, the service was excellent</td>
+                                    <td><input type="radio" name="service" value="1" required/></td>
+                                    <td><input type="radio" name="service" value="2" /></td>
+                                    <td><input type="radio" name="service" value="3" /></td>
+                                    <td><input type="radio" name="service" value="4" /></td>
+                                    <td><input type="radio" name="service" value="5" /></td>
+                                </tr>
+                            </tbody>
+                        </table>  
+                        <br />
+                    </fieldset>
+                    <br />
+
+                    <center>
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                    </center>
+                </form>
+            </div>
+        </section>
+        <!-- Survey End -->
+    </body>
+</html>
