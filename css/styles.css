@@ -44,6 +44,7 @@ section {
     padding: 2rem 9%;
 }
 
+/* Heading */
 .heading {
     text-align: center;
     font-size: 3.5rem;
@@ -55,6 +56,7 @@ section {
     color: var(--yellow);
 }
 
+/* Buttons */
 .btn {
     display: inline-block;
     padding: 0.8rem 3rem;
@@ -137,14 +139,6 @@ header .navbar a:hover {
     border-radius: 0.3rem;
     padding: 0.5rem 1.5rem;
     display: none;
-}
-
-.title {
-    font-size: 3rem;
-    color: #666;
-    position: relative;
-    left: 150px;
-    bottom: 70px;
 }
 
 /* Home */
@@ -311,7 +305,7 @@ input[type="reset"]:hover {
     background: var(--yellow);
 }
 
-/* Fieldset Design */
+/* Fieldset Design for Survey */
 fieldset {
     border-color: var(--yellow);
     border-style: solid;
@@ -344,7 +338,6 @@ legend:after {
 }
 
 /* Survey Table */
-
 table.tableSurvey {
     border-spacing: 1;
     border-collapse: collapse;
@@ -432,6 +425,7 @@ th {
     transform: translateY(100%);
 }
 
+/* Gallery */
 .gallery .box-container {
     display: flex;
     flex-wrap: wrap;
@@ -454,6 +448,7 @@ th {
     object-fit: cover;
 }
 
+/* Order */
 .order .row {
     padding: 2rem;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
@@ -519,6 +514,7 @@ th {
     background: var(--yellow);
 }
 
+/* Footer */
 .footer {
     background: #000;
     text-align: center;
@@ -560,7 +556,7 @@ th {
     top: calc(100% - 12rem);
 }
 
-/* Loader */
+/* Burger GIF Loader */
 .loader-container {
     position: fixed;
     top: 0;
@@ -580,7 +576,7 @@ th {
 */
 
 /* 
-media queries 
+media queries (below)
 - to apply different styles for different media types/devices.
 1 width and height of the viewport
 2 width and height of the device
@@ -606,7 +602,6 @@ media queries
     #menu-bar {
         display: initial;
     }
-
     header .navbar {
         position: absolute;
         top: 100%;
@@ -616,11 +611,9 @@ media queries
         border-top: 0.1rem solid rgba(0, 0, 0, 0.1);
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     }
-
     header .navbar.active {
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     }
-
     header .navbar a {
         margin: 1.5rem;
         padding: 1.5rem;
@@ -635,7 +628,6 @@ media queries
     html {
         font-size: 50%;
     }
-
     .order .row form .inputBox input {
         width: 100%;
     }
