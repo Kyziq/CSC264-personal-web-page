@@ -576,13 +576,12 @@ th {
 */
 
 /* 
-media queries (below)
+media queries - still learning (below )
 - to apply different styles for different media types/devices.
 1 width and height of the viewport
 2 width and height of the device
 3 orientation (is the tablet/phone in landscape or portrait mode?)
 4 resolution
-*/
 
 @media (max-width: 991px) {
     html {
@@ -632,3 +631,4 @@ media queries (below)
         width: 100%;
     }
 }
+*/
