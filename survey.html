@@ -18,17 +18,15 @@
         <link rel="icon" href="img/LogoCircle.png" />
     </head>
     <body>
-        <!-- Header Begin -->
+        <!-- Header Start -->
         <header>
-            <!-- <a href="#" class="logo">
-                <img src="img/LogoCircle.png" alt="" width="100" height="100" />
-            </a>
-            -->
-            <a href="#" class="logo"
-                ><i class="fas fa-utensils"></i>BURGER MERBOKING RESTAURANT 
+            <!-- Header logo and name -->
+            <a href="#" class="logo">
+                <i class="fas fa-utensils"></i>BURGER MERBOKING RESTAURANT
             </a>
             <div id="menu-bar" class="fas fa-bars"></div>
 
+            <!-- Navigations -->
             <nav class="navbar">
                 <a href="home.html">HOME</a>
                 <a href="aboutme.html">ABOUT ME</a>
@@ -45,7 +43,9 @@
             <br />
             <div class="content">
                 <center>
+                    <!-- Survey Title -->
                     <h1 class="heading">SUR<span>VEY</span></h1>
+                    <!-- Survey Para -->
                     <p>
                         Thank you for visiting Burger MerboKing. We're
                         conducting a short survey to find out about your dining
@@ -56,16 +56,21 @@
                     </p>
                     <br />
                 </center>
-                <form method="GET" action="survey.html">
 
+                <!-- Survey Form Start -->
+                <form method="GET" action="survey.html">
+                    <!-- FORM 1 -->
                     <fieldset>
+                        <!-- FORM TITLE -->
                         <legend>
                             <i class="fas fa-pencil-alt"></i> <b>FORM</b>
                         </legend>
                         
                         <div class="info">
+                            <!-- Ordered Lists -->
                             <ol>
                                 <div id="inputbox">
+                                    <!-- Name -->
                                     <li style="list-style-position: inside;">
                                         <b>Name:</b>
                                         <input
@@ -76,27 +81,33 @@
                                             maxlength="20"
                                             required
                                         />
+                                    <!-- Age -->
                                     <li style="list-style-position: inside;">
                                         <b>Age:</b>
                                         <input type="number" name="age" min="13" max="80" step="1" placeholder="age" required/>
                                     </li>
+                                    <!-- Phone Number -->
                                     <li style="list-style-position: inside;">
                                         <b>Phone Number:</b>
                                         <input type="text" name="phone" placeholder="+0123456789" required/>
                                     </li>
+                                    <!-- Email -->
                                     <li style="list-style-position: inside;">
                                         <b>Email:</b>
                                         <input type="email" name="email" placeholder="email@gmail.com" size="50" required/>
                                     </li>
+                                    <!-- Date visit -->
                                     <li style="list-style-position: inside;">
                                         <b>Date of visit:</b>
                                         <input type="date" name="date" required/>
                                     </li>
+                                    <!-- Gender-->
                                     <li style="list-style-position: inside;">
                                         <b>Gender:</b>
                                         <input type="radio" name="gender" value="Male" required/> Male
                                         <input type="radio" name="gender" value="Female" /> Female
                                     </li>
+                                    <!-- Fav Foods -->
                                     <li style="list-style-position: inside;">
                                         <b>Select food(s) that you loved the most: </b>
                                         <input type="checkbox" name="gaming" value="yes" required> Burger
@@ -113,8 +124,9 @@
                     </fieldset>
                     
                     <br>
-
+                    <!-- FORM 2 -->
                     <fieldset>
+                        <!-- RATE FORM -->
                         <legend>
                             <i class="fas fa-pencil-alt"></i> <b>RATING</b>
                         </legend>
@@ -177,6 +189,7 @@
                     </fieldset>
                     <br />
 
+                    <!-- Buttons -->
                     <center>
                         <input type="submit" value="Submit">
                         <input type="reset" value="Reset">
